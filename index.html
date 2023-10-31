@@ -231,6 +231,21 @@ function myMenuFunction(){
     menuBtn.className = "nav-menu";
   }
 }
+         
+/* ----- cv download script ----- */
+             function trackDownload() {
+        
+            const pdfFilename = 'MY RESUME.pdf';
+
+            // Send an event to Google Analytics
+            gtag('event', 'download', {
+                event_category: 'PDF',
+                event_label: pdfFilename,
+            });
+        }
+
+        // Add a click event listener to the download button
+        document.getElementById('download-button').addEventListener('click', trackDownload);
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
