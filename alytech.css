@@ -244,8 +244,8 @@ nav{
     width: 380px;
     height: 380px;
     object-fit: contain;
-    border:1px solid #00B5E7;
-    border-radius: 50px;
+    border:2px solid #00B5E7;
+    border-radius: 50%;
 }
 }
 @keyframes imgFloat {
