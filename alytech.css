@@ -138,7 +138,7 @@ nav{
     transition: .3;
 }
 .active-link::after{
-    content: '';
+    /*----content: '';----*/
     position: absolute;
     left: 50%;
     bottom: -15px;
