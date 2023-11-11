@@ -92,7 +92,7 @@ nav{
     height: 90px;
     line-height: 90px;
     background:#0160c9;
-    padding-inline:0 9vw;
+    padding-inline:09vw;
     transition: .3s;
     z-index: 100;
 }
