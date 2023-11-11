@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,43 +14,41 @@
 <body>
     <div class="container">
         <!-- --------------- HEADER --------------- -->
-       <nav id="header">
-          <!----div class="nav-logo"---->
-                <LOGO style=" width="150" height="75"></LOGO>
-                
+        <nav id="header">
+            <div class="nav-logo"> <button class="btn">ALYTECH</button><!--<img src="logo 2a.png" width="150" height="75">-->
                 <p class="nav-name"></p>
                 <span></span>
             </div>
             <div class="nav-menu" id="myNavMenu">
                 <ul class="nav_menu_list">
                     <li class="nav_list">
-                        <a href="#home">HOME</a>
+                        <a href="#home">Home</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="#about" class="nav-link">ABOUT</a>
+                        <a href="#about" class="nav-link">About</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="#projects" class="nav-link">PROJECTS</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="#contact" class="nav-link">CONTACT</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                         <div class="circle"></div>
                     </li>
                 </ul>
             </div>
-            <div class="nav-button">
-                  <a href="RESUME.pdf" download>
+             <div class="nav-button">
+    <a href="RESUME.pdf" download>
         <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
     </a>
-            </div>
+</div>
+
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
             </div>
-</nav>
-        
+        </nav>
         <!-- -------------- MAIN ---------------- -->
         <main class="wrapper">
             <!-- -------------- FEATURED BOX ---------------- -->
@@ -69,11 +67,7 @@
                     </div>
                     <div class="featured-text-btn">
                         <button class="btn blue-btn">Hire Me</button>
-                        
-                      
-    <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-                        
-                  <a href="RESUME.pdf" download>
+                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
                     </div>
                     <div class="social_icons">
                         
@@ -173,9 +167,9 @@
                         </div>
                     </div>
                     <div class="col">
-                        
+
                         <form action="mailto:msaliyu141@gmail.com" method="POST">
-                        <div class="form-control">
+
                             <div class="form-inputs">
                                 <input type="text" class="input-field" placeholder="Name">
                                 <input type="text" class="input-field" placeholder="Email">
@@ -185,6 +179,7 @@
                             </div>
                             <div class="form-button">
                                 <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </form>
                             </div>
                         </div>
                     </div>
@@ -227,7 +222,7 @@
         </footer>
     </div>
     <!-- ----- TYPING JS Link ----- -->
-    <script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
   let menuBtn = document.getElementById("myNavMenu");
@@ -238,9 +233,12 @@ function myMenuFunction(){
     menuBtn.className = "nav-menu";
   }
 }
-         
 /* ----- cv download script ----- */
-             function trackDownload() {
+ 
+
+    
+        
+        function trackDownload() {
         
             const pdfFilename = 'RESUME.pdf';
 
@@ -253,6 +251,8 @@ function myMenuFunction(){
 
         // Add a click event listener to the download button
         document.getElementById('download-button').addEventListener('click', trackDownload);
+    
+
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
@@ -355,10 +355,12 @@ sections.forEach(current =>{
 
 window.addEventListener('scroll', scrollActive)
 
-
     </script>
     <!-- ----- SCROLL REVEAL JS Link----- -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+    <!-----form script----->
     
 </body>
 
