@@ -95,6 +95,7 @@ nav{
     padding:0 9vw;
     transition: .3s;
     z-index: 100;
+    color:white
 }
 .nav-logo{
    position: relative;
@@ -127,7 +128,7 @@ nav{
     margin: 20px;
 }
 .nav-menu-btn{
-    display: none;
+    display: flex;
 }
 .nav-menu-btn i{
     font-size: 28px;
