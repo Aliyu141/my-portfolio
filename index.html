@@ -15,9 +15,9 @@
     <div class="container">
         <!-- --------------- HEADER --------------- -->
         <nav id="header">
-            <div class="nav-logo"> <button class="btn"></button>
+            <div class="nav-logo"><LOGO id="logo"><h1>ALYTECH</h1></LOGO>
                 <p class="nav-name"></p>
-                <span>ALYTECH</span>
+                <span></span>
            </div>
             <div class="nav-menu" id="myNavMenu">
                 <ul class="nav_menu_list">
@@ -47,7 +47,8 @@
 </div>
 
             <div class="nav-menu-btn">
-                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+                
+                <i class="uil uil-bars" onclick="myFunction()"></i>
             </div>
         </nav>
         <!-- -------------- MAIN ---------------- -->
@@ -224,16 +225,16 @@
     </div>
     <!-- ----- TYPING JS Link ----- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
-/* ----- NAVIGATION BAR FUNCTION ----- */
-function myMenuFunction(){
+/* ----- NAVIGATION BAR FUNCTION 
+function togglemenu(){
   let menuBtn = document.getElementById("myNavMenu");
 
-  if(menuBtn.className === "nav-menu-list"){
+  if(menuBtn.className === "nav-menu"){
     menuBtn.className += " responsive";
   } else {
-    menuBtn.className = "nav-menu-list";
+    menuBtn.className = "nav-menu";
   }
-}
+}----- */
 /* ----- cv download script ----- */
  
 
