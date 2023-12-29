@@ -559,7 +559,7 @@ footer{
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 540px) {
     .nav-button{
-        display: none;
+        display: block;
     }
     .nav-menu.responsive{
         left: 0;
