@@ -96,6 +96,7 @@ nav{
     transition: .3s;
     z-index: 100;
     color:white
+   margin-left:5px;
 }
 .nav-logo{
    position: relative;
